@@ -11,11 +11,15 @@
   --surface-disabled: #e7e5e4;
   --stroke: #d6d3d1;
   --stroke-highlight: #f3541c;
-  --semantic: #dc2626;
+  --semantic-error: #dc2626;
   --supporting-orange: #f9a474;
   --supporting-yellow: #fedf6f;
   --supporting-green: #c7d78d;
   --supporting-blue: #b8cedc;
   --supporting-violet: #c3b2e7;
   --supporting-pink: #f682a5;
+
+  --font-family: "Poppins", sans-serif;
+  --text: 400 1rem/1.5 var(--font-family);
+  --text-sm: 400 0.875rem/1.4 var(--font-family);
 }

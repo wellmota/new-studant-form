@@ -1,0 +1,30 @@
+# .gitignore for web design
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore node modules
+node_modules/
+
+# Ignore log files
+npm-debug.log
+yarn-error.log
+
+# Ignore build and distribution directories
+dist/
+build/
+
+# Ignore Sass cache
+.sass-cache/
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore cache and temporary files
+*.cache
+*.tmp
+*.temp
