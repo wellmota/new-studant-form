@@ -14,7 +14,7 @@
   --surface: #fff;
   --surface-secondary: #fee7d6;
   --surface-disabled: #e7e5e4;
-  --stroke: #d6d3d1;
+  --stroke-default: #d6d3d1;
   --stroke-highlight: #f3541c;
   --semantic-error: #dc2626;
   --supporting-orange: #f9a474;
@@ -27,6 +27,7 @@
   --font-family: "Poppins", sans-serif;
   --text: 400 1rem/1.5 var(--font-family);
   --text-sm: 400 0.875rem/1.4 var(--font-family);
+
 }
 
 body {
