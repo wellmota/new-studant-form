@@ -26,8 +26,8 @@ label + .radio-wrapper {
 
   .radio-image{
     background-image: url(../../assets/icons/radio-default.svg);
-    width: 1.4rem;
-    height: 1.4rem;
+    width: 1.33rem;
+    height: 1.33rem;
 
     position: absolute;
     top: .5rem;
