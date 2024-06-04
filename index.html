@@ -86,8 +86,29 @@
                 <input type="text" id="state" name="state" value="SP" disabled>
               </div>
             </div>
-      
+
           </fieldset>
+          <fieldset class="guardian">
+            <legend>Informações dos responsáveis</legend>
+            <div class="input-wrapper">
+              <label for="parent1">Nome do responsável 1</label>
+              <input type="text" id="parent1" name="parent1" placeholder="Nome do responsável 1">
+              <small>Principal responsável legal e contato de emergência</small>
+            </div>
+            <div class="input-wrapper">
+              <label for="parent2">Nome do responsável 2</label>
+              <input type="text" id="parent2" name="parent2" placeholder="Nome do responsável 2">
+
+            </div>
+            <div class="input-wrapper">
+              <label for="phone">Telefone</label>
+              <input type="tel" id="phone" name="phone" placeholder="Telefone">
+            </div>
+            <div class="input-wrapper">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" placeholder="E-mail" required>
+              <span class="error">Insira um e-mail valido</span>
+            </div>
         </form>
       </div>
     </main>
